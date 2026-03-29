@@ -1,5 +1,12 @@
-Project Report: TrustVerify CLI Team Name: YOUSSEF MAHMOUD  
+Project Report: TrustVerify CLI 
+Name: YOUSSEF MAHMOUD  
 My student id: 220208903
+Youtubelink:https://youtu.be/n-P4b2-AQe8
  Why hashing alone isn't enough to prove identity? 
 Hashing only ensures Integrity. It proves that a file hasn't been changed, but it doesn't prove "who" sent the file. An attacker could replace both the file and the hash, and the receiver wouldn't know the difference.How the private/public key relationship ensures non-repudiation? 
 Non-repudiation is achieved because only the Private Key (known only to the sender) can create the digital signature. Since the Public Key is used to verify it, the sender cannot deny signing the file, as no one else has their private key.
+Question 1: Why hashing alone isn't enough to prove identity?
+Answer: Hashing only ensures Integrity by proving the file hasn't been changed. However, it doesn't provide Authenticity because any attacker can modify a file and generate a new hash. A Digital Signature is needed to prove exactly "who" sent the file.
+
+Question 2: How the private/public key relationship ensures non-repudiation?
+Answer: In RSA, the Private Key is secret and known only to the sender. Since the digital signature can only be created using this private key, the sender cannot deny (Non-repudiation) signing the file once it is verified by their Public Key.
