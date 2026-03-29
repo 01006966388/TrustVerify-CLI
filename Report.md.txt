@@ -1,0 +1,5 @@
+Project Report: TrustVerify CLI Team Name: YOUSSEF MAHMOUD  
+My student id: 220208903
+ Why hashing alone isn't enough to prove identity? 
+Hashing only ensures Integrity. It proves that a file hasn't been changed, but it doesn't prove "who" sent the file. An attacker could replace both the file and the hash, and the receiver wouldn't know the difference.How the private/public key relationship ensures non-repudiation? 
+Non-repudiation is achieved because only the Private Key (known only to the sender) can create the digital signature. Since the Public Key is used to verify it, the sender cannot deny signing the file, as no one else has their private key.
